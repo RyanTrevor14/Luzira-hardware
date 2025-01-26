@@ -1,0 +1,18 @@
+main{
+    background-image: url(back\ ground.jpg);
+    background-repeat: repeat;
+    background-attachment:fixed ;   
+    background-blend-mode: lighten;
+    background-color: rgb(228, 211, 211);
+}
+main img{
+    width: 200px;
+    animation-name:slideleft;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+@keyframes slideleft{
+    from{transform: translateX(300px)}
+}

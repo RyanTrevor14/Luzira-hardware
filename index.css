@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+
+}
+header{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0PX;
+    margin: 0PX;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+nav a:hover{
+    background-color: black;
+}
+nav li{
+    float: left;
+
+}
+main{
+    margin: 20px;
+    background-image: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin: 0px;
+    background-color: gray;
+    padding: 0px;
+    color: white;
+    top: 0px;
+    bottom: 0px;
+    position: relative;
+}
+footer p{
+    margin: 20px;
+}

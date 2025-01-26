@@ -1,0 +1,26 @@
+main{
+    text-align: center;
+    background-image: url(back\ ground.jpg);
+    background-repeat: repeat;
+    background-attachment:fixed ;   
+    background-blend-mode: lighten;
+    background-color: rgb(228, 211, 211);
+}
+main p{
+    font-size: 30px;
+}
+main img{
+    width: 150px;
+}
+main li{
+    list-style-type: none;
+    font-size: 20px;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+main a:hover{
+    background-color: gray;
+}

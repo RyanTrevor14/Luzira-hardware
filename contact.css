@@ -1,0 +1,8 @@
+main{
+    font-size: 30px;
+    background-image: url(back\ ground.jpg);
+    background-repeat: repeat;
+    background-attachment:fixed ;   
+    background-blend-mode: lighten;
+    background-color: rgb(228, 211, 211);
+}
