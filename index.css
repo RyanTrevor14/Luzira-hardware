@@ -4,9 +4,9 @@ body{
 }
 header{
     background-color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 0px;
     margin: 0px;
-    position: sticky;
     top: 0px;
 }
 nav{
@@ -38,19 +38,32 @@ main{
     margin: 20px;
     background-image: none;
 }
+button{
+    border-style: none;
+    border-radius: 20px;
+}
 button a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
+}
+button a:hover{
+    background-color: rgb(61, 60, 60);
+    border-radius: 20px;
 }
 footer{
     margin: 0px;
     background-color: gray;
-    padding: 10px;
+    padding: 0px;
     color: white;
     top: 0px;
     bottom: 0px;
+    margin-bottom: 10px;
     position: relative;
 }
 footer p{
     margin: 20px;
+}
+footer p button a:hover{
+    background-color: darkgreen;
 }
